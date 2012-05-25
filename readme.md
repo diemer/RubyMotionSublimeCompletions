@@ -7,8 +7,3 @@ Installation
 ------------
 
 Put this package into your Sublime Text 2 packages folder
-
-Usage
------
-
-Just start typing and up will pop the CodeIgniter functions in question.
