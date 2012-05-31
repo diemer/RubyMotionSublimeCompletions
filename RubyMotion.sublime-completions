@@ -7008,6 +7008,10 @@
       "contents": "CAValueFunction.functionWithName(${1:NSString* name})"
     },
     {
+      "trigger": "CA_PREFER_FIXED_POINT (1)",
+      "contents": "CA_PREFER_FIXED_POINT"
+    },
+    {
       "trigger": "CA_WARN_DEPRECATED (1)",
       "contents": "CA_WARN_DEPRECATED"
     },
@@ -12866,6 +12870,10 @@
     {
       "trigger": "CNSetSupportedSSIDs",
       "contents": "CNSetSupportedSSIDs(${1:CFArrayRef ssidArray})"
+    },
+    {
+      "trigger": "COREAUDIOTYPES_VERSION (1051)",
+      "contents": "COREAUDIOTYPES_VERSION"
     },
     {
       "trigger": "COREFOUNDATION_CFPLUGINCOM_SEPARATE (1)",
@@ -37100,6 +37108,22 @@
       "contents": "KAppleHardwareAudioCodecManufacturer"
     },
     {
+      "trigger": "kAppleLosslessFormatFlag_16BitSourceData (1)",
+      "contents": "KAppleLosslessFormatFlag_16BitSourceData"
+    },
+    {
+      "trigger": "kAppleLosslessFormatFlag_20BitSourceData (2)",
+      "contents": "KAppleLosslessFormatFlag_20BitSourceData"
+    },
+    {
+      "trigger": "kAppleLosslessFormatFlag_24BitSourceData (3)",
+      "contents": "KAppleLosslessFormatFlag_24BitSourceData"
+    },
+    {
+      "trigger": "kAppleLosslessFormatFlag_32BitSourceData (4)",
+      "contents": "KAppleLosslessFormatFlag_32BitSourceData"
+    },
+    {
       "trigger": "kAppleSoftwareAudioCodecManufacturer (1634758764)",
       "contents": "KAppleSoftwareAudioCodecManufacturer"
     },
@@ -37118,6 +37142,874 @@
     {
       "trigger": "kAudioBalanceFadeType_MaxUnityGain (0)",
       "contents": "KAudioBalanceFadeType_MaxUnityGain"
+    },
+    {
+      "trigger": "kAudioChannelBit_Center (4)",
+      "contents": "KAudioChannelBit_Center"
+    },
+    {
+      "trigger": "kAudioChannelBit_CenterSurround (256)",
+      "contents": "KAudioChannelBit_CenterSurround"
+    },
+    {
+      "trigger": "kAudioChannelBit_LFEScreen (8)",
+      "contents": "KAudioChannelBit_LFEScreen"
+    },
+    {
+      "trigger": "kAudioChannelBit_Left (1)",
+      "contents": "KAudioChannelBit_Left"
+    },
+    {
+      "trigger": "kAudioChannelBit_LeftCenter (64)",
+      "contents": "KAudioChannelBit_LeftCenter"
+    },
+    {
+      "trigger": "kAudioChannelBit_LeftSurround (16)",
+      "contents": "KAudioChannelBit_LeftSurround"
+    },
+    {
+      "trigger": "kAudioChannelBit_LeftSurroundDirect (512)",
+      "contents": "KAudioChannelBit_LeftSurroundDirect"
+    },
+    {
+      "trigger": "kAudioChannelBit_Right (2)",
+      "contents": "KAudioChannelBit_Right"
+    },
+    {
+      "trigger": "kAudioChannelBit_RightCenter (128)",
+      "contents": "KAudioChannelBit_RightCenter"
+    },
+    {
+      "trigger": "kAudioChannelBit_RightSurround (32)",
+      "contents": "KAudioChannelBit_RightSurround"
+    },
+    {
+      "trigger": "kAudioChannelBit_RightSurroundDirect (1024)",
+      "contents": "KAudioChannelBit_RightSurroundDirect"
+    },
+    {
+      "trigger": "kAudioChannelBit_TopBackCenter (65536)",
+      "contents": "KAudioChannelBit_TopBackCenter"
+    },
+    {
+      "trigger": "kAudioChannelBit_TopBackLeft (32768)",
+      "contents": "KAudioChannelBit_TopBackLeft"
+    },
+    {
+      "trigger": "kAudioChannelBit_TopBackRight (131072)",
+      "contents": "KAudioChannelBit_TopBackRight"
+    },
+    {
+      "trigger": "kAudioChannelBit_TopCenterSurround (2048)",
+      "contents": "KAudioChannelBit_TopCenterSurround"
+    },
+    {
+      "trigger": "kAudioChannelBit_VerticalHeightCenter (8192)",
+      "contents": "KAudioChannelBit_VerticalHeightCenter"
+    },
+    {
+      "trigger": "kAudioChannelBit_VerticalHeightLeft (4096)",
+      "contents": "KAudioChannelBit_VerticalHeightLeft"
+    },
+    {
+      "trigger": "kAudioChannelBit_VerticalHeightRight (16384)",
+      "contents": "KAudioChannelBit_VerticalHeightRight"
+    },
+    {
+      "trigger": "kAudioChannelCoordinates_Azimuth (0)",
+      "contents": "KAudioChannelCoordinates_Azimuth"
+    },
+    {
+      "trigger": "kAudioChannelCoordinates_BackFront (1)",
+      "contents": "KAudioChannelCoordinates_BackFront"
+    },
+    {
+      "trigger": "kAudioChannelCoordinates_Distance (2)",
+      "contents": "KAudioChannelCoordinates_Distance"
+    },
+    {
+      "trigger": "kAudioChannelCoordinates_DownUp (2)",
+      "contents": "KAudioChannelCoordinates_DownUp"
+    },
+    {
+      "trigger": "kAudioChannelCoordinates_Elevation (1)",
+      "contents": "KAudioChannelCoordinates_Elevation"
+    },
+    {
+      "trigger": "kAudioChannelCoordinates_LeftRight (0)",
+      "contents": "KAudioChannelCoordinates_LeftRight"
+    },
+    {
+      "trigger": "kAudioChannelFlags_AllOff (0)",
+      "contents": "KAudioChannelFlags_AllOff"
+    },
+    {
+      "trigger": "kAudioChannelFlags_Meters (4)",
+      "contents": "KAudioChannelFlags_Meters"
+    },
+    {
+      "trigger": "kAudioChannelFlags_RectangularCoordinates (1)",
+      "contents": "KAudioChannelFlags_RectangularCoordinates"
+    },
+    {
+      "trigger": "kAudioChannelFlags_SphericalCoordinates (2)",
+      "contents": "KAudioChannelFlags_SphericalCoordinates"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Ambisonic_W (200)",
+      "contents": "KAudioChannelLabel_Ambisonic_W"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Ambisonic_X (201)",
+      "contents": "KAudioChannelLabel_Ambisonic_X"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Ambisonic_Y (202)",
+      "contents": "KAudioChannelLabel_Ambisonic_Y"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Ambisonic_Z (203)",
+      "contents": "KAudioChannelLabel_Ambisonic_Z"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Center (3)",
+      "contents": "KAudioChannelLabel_Center"
+    },
+    {
+      "trigger": "kAudioChannelLabel_CenterSurround (9)",
+      "contents": "KAudioChannelLabel_CenterSurround"
+    },
+    {
+      "trigger": "kAudioChannelLabel_CenterSurroundDirect (44)",
+      "contents": "KAudioChannelLabel_CenterSurroundDirect"
+    },
+    {
+      "trigger": "kAudioChannelLabel_ClickTrack (304)",
+      "contents": "KAudioChannelLabel_ClickTrack"
+    },
+    {
+      "trigger": "kAudioChannelLabel_DialogCentricMix (43)",
+      "contents": "KAudioChannelLabel_DialogCentricMix"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete (400)",
+      "contents": "KAudioChannelLabel_Discrete"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_0 (65536)",
+      "contents": "KAudioChannelLabel_Discrete_0"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_1 (65537)",
+      "contents": "KAudioChannelLabel_Discrete_1"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_10 (65546)",
+      "contents": "KAudioChannelLabel_Discrete_10"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_11 (65547)",
+      "contents": "KAudioChannelLabel_Discrete_11"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_12 (65548)",
+      "contents": "KAudioChannelLabel_Discrete_12"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_13 (65549)",
+      "contents": "KAudioChannelLabel_Discrete_13"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_14 (65550)",
+      "contents": "KAudioChannelLabel_Discrete_14"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_15 (65551)",
+      "contents": "KAudioChannelLabel_Discrete_15"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_2 (65538)",
+      "contents": "KAudioChannelLabel_Discrete_2"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_3 (65539)",
+      "contents": "KAudioChannelLabel_Discrete_3"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_4 (65540)",
+      "contents": "KAudioChannelLabel_Discrete_4"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_5 (65541)",
+      "contents": "KAudioChannelLabel_Discrete_5"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_6 (65542)",
+      "contents": "KAudioChannelLabel_Discrete_6"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_65535 (131071)",
+      "contents": "KAudioChannelLabel_Discrete_65535"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_7 (65543)",
+      "contents": "KAudioChannelLabel_Discrete_7"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_8 (65544)",
+      "contents": "KAudioChannelLabel_Discrete_8"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Discrete_9 (65545)",
+      "contents": "KAudioChannelLabel_Discrete_9"
+    },
+    {
+      "trigger": "kAudioChannelLabel_ForeignLanguage (305)",
+      "contents": "KAudioChannelLabel_ForeignLanguage"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Haptic (45)",
+      "contents": "KAudioChannelLabel_Haptic"
+    },
+    {
+      "trigger": "kAudioChannelLabel_HeadphonesLeft (301)",
+      "contents": "KAudioChannelLabel_HeadphonesLeft"
+    },
+    {
+      "trigger": "kAudioChannelLabel_HeadphonesRight (302)",
+      "contents": "KAudioChannelLabel_HeadphonesRight"
+    },
+    {
+      "trigger": "kAudioChannelLabel_HearingImpaired (40)",
+      "contents": "KAudioChannelLabel_HearingImpaired"
+    },
+    {
+      "trigger": "kAudioChannelLabel_LFE2 (37)",
+      "contents": "KAudioChannelLabel_LFE2"
+    },
+    {
+      "trigger": "kAudioChannelLabel_LFEScreen (4)",
+      "contents": "KAudioChannelLabel_LFEScreen"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Left (1)",
+      "contents": "KAudioChannelLabel_Left"
+    },
+    {
+      "trigger": "kAudioChannelLabel_LeftCenter (7)",
+      "contents": "KAudioChannelLabel_LeftCenter"
+    },
+    {
+      "trigger": "kAudioChannelLabel_LeftSurround (5)",
+      "contents": "KAudioChannelLabel_LeftSurround"
+    },
+    {
+      "trigger": "kAudioChannelLabel_LeftSurroundDirect (10)",
+      "contents": "KAudioChannelLabel_LeftSurroundDirect"
+    },
+    {
+      "trigger": "kAudioChannelLabel_LeftTotal (38)",
+      "contents": "KAudioChannelLabel_LeftTotal"
+    },
+    {
+      "trigger": "kAudioChannelLabel_LeftWide (35)",
+      "contents": "KAudioChannelLabel_LeftWide"
+    },
+    {
+      "trigger": "kAudioChannelLabel_MS_Mid (204)",
+      "contents": "KAudioChannelLabel_MS_Mid"
+    },
+    {
+      "trigger": "kAudioChannelLabel_MS_Side (205)",
+      "contents": "KAudioChannelLabel_MS_Side"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Mono (42)",
+      "contents": "KAudioChannelLabel_Mono"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Narration (41)",
+      "contents": "KAudioChannelLabel_Narration"
+    },
+    {
+      "trigger": "kAudioChannelLabel_RearSurroundLeft (33)",
+      "contents": "KAudioChannelLabel_RearSurroundLeft"
+    },
+    {
+      "trigger": "kAudioChannelLabel_RearSurroundRight (34)",
+      "contents": "KAudioChannelLabel_RearSurroundRight"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Right (2)",
+      "contents": "KAudioChannelLabel_Right"
+    },
+    {
+      "trigger": "kAudioChannelLabel_RightCenter (8)",
+      "contents": "KAudioChannelLabel_RightCenter"
+    },
+    {
+      "trigger": "kAudioChannelLabel_RightSurround (6)",
+      "contents": "KAudioChannelLabel_RightSurround"
+    },
+    {
+      "trigger": "kAudioChannelLabel_RightSurroundDirect (11)",
+      "contents": "KAudioChannelLabel_RightSurroundDirect"
+    },
+    {
+      "trigger": "kAudioChannelLabel_RightTotal (39)",
+      "contents": "KAudioChannelLabel_RightTotal"
+    },
+    {
+      "trigger": "kAudioChannelLabel_RightWide (36)",
+      "contents": "KAudioChannelLabel_RightWide"
+    },
+    {
+      "trigger": "kAudioChannelLabel_TopBackCenter (17)",
+      "contents": "KAudioChannelLabel_TopBackCenter"
+    },
+    {
+      "trigger": "kAudioChannelLabel_TopBackLeft (16)",
+      "contents": "KAudioChannelLabel_TopBackLeft"
+    },
+    {
+      "trigger": "kAudioChannelLabel_TopBackRight (18)",
+      "contents": "KAudioChannelLabel_TopBackRight"
+    },
+    {
+      "trigger": "kAudioChannelLabel_TopCenterSurround (12)",
+      "contents": "KAudioChannelLabel_TopCenterSurround"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Unknown (4294967295)",
+      "contents": "KAudioChannelLabel_Unknown"
+    },
+    {
+      "trigger": "kAudioChannelLabel_Unused (0)",
+      "contents": "KAudioChannelLabel_Unused"
+    },
+    {
+      "trigger": "kAudioChannelLabel_UseCoordinates (100)",
+      "contents": "KAudioChannelLabel_UseCoordinates"
+    },
+    {
+      "trigger": "kAudioChannelLabel_VerticalHeightCenter (14)",
+      "contents": "KAudioChannelLabel_VerticalHeightCenter"
+    },
+    {
+      "trigger": "kAudioChannelLabel_VerticalHeightLeft (13)",
+      "contents": "KAudioChannelLabel_VerticalHeightLeft"
+    },
+    {
+      "trigger": "kAudioChannelLabel_VerticalHeightRight (15)",
+      "contents": "KAudioChannelLabel_VerticalHeightRight"
+    },
+    {
+      "trigger": "kAudioChannelLabel_XY_X (206)",
+      "contents": "KAudioChannelLabel_XY_X"
+    },
+    {
+      "trigger": "kAudioChannelLabel_XY_Y (207)",
+      "contents": "KAudioChannelLabel_XY_Y"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AAC_3_0 (7471107)",
+      "contents": "KAudioChannelLayoutTag_AAC_3_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AAC_4_0 (7602180)",
+      "contents": "KAudioChannelLayoutTag_AAC_4_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AAC_5_0 (7864325)",
+      "contents": "KAudioChannelLayoutTag_AAC_5_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AAC_5_1 (8126470)",
+      "contents": "KAudioChannelLayoutTag_AAC_5_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AAC_6_0 (9240582)",
+      "contents": "KAudioChannelLayoutTag_AAC_6_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AAC_6_1 (9306119)",
+      "contents": "KAudioChannelLayoutTag_AAC_6_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AAC_7_0 (9371655)",
+      "contents": "KAudioChannelLayoutTag_AAC_7_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AAC_7_1 (8323080)",
+      "contents": "KAudioChannelLayoutTag_AAC_7_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AAC_Octagonal (9437192)",
+      "contents": "KAudioChannelLayoutTag_AAC_Octagonal"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AAC_Quadraphonic (7077892)",
+      "contents": "KAudioChannelLayoutTag_AAC_Quadraphonic"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AC3_1_0_1 (9764866)",
+      "contents": "KAudioChannelLayoutTag_AC3_1_0_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AC3_2_1_1 (10027012)",
+      "contents": "KAudioChannelLayoutTag_AC3_2_1_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AC3_3_0 (9830403)",
+      "contents": "KAudioChannelLayoutTag_AC3_3_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AC3_3_0_1 (9961476)",
+      "contents": "KAudioChannelLayoutTag_AC3_3_0_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AC3_3_1 (9895940)",
+      "contents": "KAudioChannelLayoutTag_AC3_3_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AC3_3_1_1 (10092549)",
+      "contents": "KAudioChannelLayoutTag_AC3_3_1_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Ambisonic_B_Format (7012356)",
+      "contents": "KAudioChannelLayoutTag_Ambisonic_B_Format"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_4 (7077892)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_4"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_5 (7143429)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_5"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_5_0 (7733253)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_5_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_5_1 (7929862)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_5_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_6 (7208966)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_6"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_6_0 (9109510)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_6_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_6_1 (8192007)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_6_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_7_0 (9175047)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_7_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_7_0_Front (9699335)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_7_0_Front"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_7_1 (8388616)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_7_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_7_1_Front (8257544)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_7_1_Front"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_AudioUnit_8 (7274504)",
+      "contents": "KAudioChannelLayoutTag_AudioUnit_8"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Binaural (6946818)",
+      "contents": "KAudioChannelLayoutTag_Binaural"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Cube (7340040)",
+      "contents": "KAudioChannelLayoutTag_Cube"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_3_1 (11010052)",
+      "contents": "KAudioChannelLayoutTag_DTS_3_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_4_1 (11075589)",
+      "contents": "KAudioChannelLayoutTag_DTS_4_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_6_0_A (11141126)",
+      "contents": "KAudioChannelLayoutTag_DTS_6_0_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_6_0_B (11206662)",
+      "contents": "KAudioChannelLayoutTag_DTS_6_0_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_6_0_C (11272198)",
+      "contents": "KAudioChannelLayoutTag_DTS_6_0_C"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_6_1_A (11337735)",
+      "contents": "KAudioChannelLayoutTag_DTS_6_1_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_6_1_B (11403271)",
+      "contents": "KAudioChannelLayoutTag_DTS_6_1_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_6_1_C (11468807)",
+      "contents": "KAudioChannelLayoutTag_DTS_6_1_C"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_6_1_D (11927559)",
+      "contents": "KAudioChannelLayoutTag_DTS_6_1_D"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_7_0 (11534343)",
+      "contents": "KAudioChannelLayoutTag_DTS_7_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_7_1 (11599880)",
+      "contents": "KAudioChannelLayoutTag_DTS_7_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_8_0_A (11665416)",
+      "contents": "KAudioChannelLayoutTag_DTS_8_0_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_8_0_B (11730952)",
+      "contents": "KAudioChannelLayoutTag_DTS_8_0_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_8_1_A (11796489)",
+      "contents": "KAudioChannelLayoutTag_DTS_8_1_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DTS_8_1_B (11862025)",
+      "contents": "KAudioChannelLayoutTag_DTS_8_1_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_0 (6553601)",
+      "contents": "KAudioChannelLayoutTag_DVD_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_1 (6619138)",
+      "contents": "KAudioChannelLayoutTag_DVD_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_10 (8912900)",
+      "contents": "KAudioChannelLayoutTag_DVD_10"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_11 (8978437)",
+      "contents": "KAudioChannelLayoutTag_DVD_11"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_12 (7929862)",
+      "contents": "KAudioChannelLayoutTag_DVD_12"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_13 (7536644)",
+      "contents": "KAudioChannelLayoutTag_DVD_13"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_14 (7667717)",
+      "contents": "KAudioChannelLayoutTag_DVD_14"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_15 (8912900)",
+      "contents": "KAudioChannelLayoutTag_DVD_15"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_16 (8978437)",
+      "contents": "KAudioChannelLayoutTag_DVD_16"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_17 (7929862)",
+      "contents": "KAudioChannelLayoutTag_DVD_17"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_18 (9043973)",
+      "contents": "KAudioChannelLayoutTag_DVD_18"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_19 (7733253)",
+      "contents": "KAudioChannelLayoutTag_DVD_19"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_2 (8585219)",
+      "contents": "KAudioChannelLayoutTag_DVD_2"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_20 (7995398)",
+      "contents": "KAudioChannelLayoutTag_DVD_20"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_3 (8650756)",
+      "contents": "KAudioChannelLayoutTag_DVD_3"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_4 (8716291)",
+      "contents": "KAudioChannelLayoutTag_DVD_4"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_5 (8781828)",
+      "contents": "KAudioChannelLayoutTag_DVD_5"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_6 (8847365)",
+      "contents": "KAudioChannelLayoutTag_DVD_6"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_7 (7405571)",
+      "contents": "KAudioChannelLayoutTag_DVD_7"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_8 (7536644)",
+      "contents": "KAudioChannelLayoutTag_DVD_8"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DVD_9 (7667717)",
+      "contents": "KAudioChannelLayoutTag_DVD_9"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_DiscreteInOrder (9633792)",
+      "contents": "KAudioChannelLayoutTag_DiscreteInOrder"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_6_1_A (10289159)",
+      "contents": "KAudioChannelLayoutTag_EAC3_6_1_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_6_1_B (10354695)",
+      "contents": "KAudioChannelLayoutTag_EAC3_6_1_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_6_1_C (10420231)",
+      "contents": "KAudioChannelLayoutTag_EAC3_6_1_C"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_7_1_A (10485768)",
+      "contents": "KAudioChannelLayoutTag_EAC3_7_1_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_7_1_B (10551304)",
+      "contents": "KAudioChannelLayoutTag_EAC3_7_1_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_7_1_C (10616840)",
+      "contents": "KAudioChannelLayoutTag_EAC3_7_1_C"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_7_1_D (10682376)",
+      "contents": "KAudioChannelLayoutTag_EAC3_7_1_D"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_7_1_E (10747912)",
+      "contents": "KAudioChannelLayoutTag_EAC3_7_1_E"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_7_1_F (10813448)",
+      "contents": "KAudioChannelLayoutTag_EAC3_7_1_F"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_7_1_G (10878984)",
+      "contents": "KAudioChannelLayoutTag_EAC3_7_1_G"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC3_7_1_H (10944520)",
+      "contents": "KAudioChannelLayoutTag_EAC3_7_1_H"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC_6_0_A (10158086)",
+      "contents": "KAudioChannelLayoutTag_EAC_6_0_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_EAC_7_0_A (10223623)",
+      "contents": "KAudioChannelLayoutTag_EAC_7_0_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Emagic_Default_7_1 (8454152)",
+      "contents": "KAudioChannelLayoutTag_Emagic_Default_7_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Hexagonal (7208966)",
+      "contents": "KAudioChannelLayoutTag_Hexagonal"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_ITU_1_0 (6553601)",
+      "contents": "KAudioChannelLayoutTag_ITU_1_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_ITU_2_0 (6619138)",
+      "contents": "KAudioChannelLayoutTag_ITU_2_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_ITU_2_1 (8585219)",
+      "contents": "KAudioChannelLayoutTag_ITU_2_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_ITU_2_2 (8650756)",
+      "contents": "KAudioChannelLayoutTag_ITU_2_2"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_ITU_3_0 (7405571)",
+      "contents": "KAudioChannelLayoutTag_ITU_3_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_ITU_3_1 (7536644)",
+      "contents": "KAudioChannelLayoutTag_ITU_3_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_ITU_3_2 (7667717)",
+      "contents": "KAudioChannelLayoutTag_ITU_3_2"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_ITU_3_2_1 (7929862)",
+      "contents": "KAudioChannelLayoutTag_ITU_3_2_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_ITU_3_4_1 (8388616)",
+      "contents": "KAudioChannelLayoutTag_ITU_3_4_1"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_1_0 (6553601)",
+      "contents": "KAudioChannelLayoutTag_MPEG_1_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_2_0 (6619138)",
+      "contents": "KAudioChannelLayoutTag_MPEG_2_0"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_3_0_A (7405571)",
+      "contents": "KAudioChannelLayoutTag_MPEG_3_0_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_3_0_B (7471107)",
+      "contents": "KAudioChannelLayoutTag_MPEG_3_0_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_4_0_A (7536644)",
+      "contents": "KAudioChannelLayoutTag_MPEG_4_0_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_4_0_B (7602180)",
+      "contents": "KAudioChannelLayoutTag_MPEG_4_0_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_5_0_A (7667717)",
+      "contents": "KAudioChannelLayoutTag_MPEG_5_0_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_5_0_B (7733253)",
+      "contents": "KAudioChannelLayoutTag_MPEG_5_0_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_5_0_C (7798789)",
+      "contents": "KAudioChannelLayoutTag_MPEG_5_0_C"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_5_0_D (7864325)",
+      "contents": "KAudioChannelLayoutTag_MPEG_5_0_D"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_5_1_A (7929862)",
+      "contents": "KAudioChannelLayoutTag_MPEG_5_1_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_5_1_B (7995398)",
+      "contents": "KAudioChannelLayoutTag_MPEG_5_1_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_5_1_C (8060934)",
+      "contents": "KAudioChannelLayoutTag_MPEG_5_1_C"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_5_1_D (8126470)",
+      "contents": "KAudioChannelLayoutTag_MPEG_5_1_D"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_6_1_A (8192007)",
+      "contents": "KAudioChannelLayoutTag_MPEG_6_1_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_7_1_A (8257544)",
+      "contents": "KAudioChannelLayoutTag_MPEG_7_1_A"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_7_1_B (8323080)",
+      "contents": "KAudioChannelLayoutTag_MPEG_7_1_B"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MPEG_7_1_C (8388616)",
+      "contents": "KAudioChannelLayoutTag_MPEG_7_1_C"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MatrixStereo (6750210)",
+      "contents": "KAudioChannelLayoutTag_MatrixStereo"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_MidSide (6815746)",
+      "contents": "KAudioChannelLayoutTag_MidSide"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Mono (6553601)",
+      "contents": "KAudioChannelLayoutTag_Mono"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Octagonal (7274504)",
+      "contents": "KAudioChannelLayoutTag_Octagonal"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Pentagonal (7143429)",
+      "contents": "KAudioChannelLayoutTag_Pentagonal"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Quadraphonic (7077892)",
+      "contents": "KAudioChannelLayoutTag_Quadraphonic"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_SMPTE_DTV (8519688)",
+      "contents": "KAudioChannelLayoutTag_SMPTE_DTV"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Stereo (6619138)",
+      "contents": "KAudioChannelLayoutTag_Stereo"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_StereoHeadphones (6684674)",
+      "contents": "KAudioChannelLayoutTag_StereoHeadphones"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_TMH_10_2_full (9568277)",
+      "contents": "KAudioChannelLayoutTag_TMH_10_2_full"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_TMH_10_2_std (9502736)",
+      "contents": "KAudioChannelLayoutTag_TMH_10_2_std"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_Unknown (4294901760)",
+      "contents": "KAudioChannelLayoutTag_Unknown"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_UseChannelBitmap (65536)",
+      "contents": "KAudioChannelLayoutTag_UseChannelBitmap"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_UseChannelDescriptions (0)",
+      "contents": "KAudioChannelLayoutTag_UseChannelDescriptions"
+    },
+    {
+      "trigger": "kAudioChannelLayoutTag_XY (6881282)",
+      "contents": "KAudioChannelLayoutTag_XY"
     },
     {
       "trigger": "kAudioConverterApplicableEncodeBitRates (1634034290)",
@@ -37840,12 +38732,176 @@
       "contents": "KAudioFileWritePermission"
     },
     {
+      "trigger": "kAudioFormat60958AC3 (1667326771)",
+      "contents": "KAudioFormat60958AC3"
+    },
+    {
+      "trigger": "kAudioFormatAC3 (1633889587)",
+      "contents": "KAudioFormatAC3"
+    },
+    {
+      "trigger": "kAudioFormatAES3 (1634038579)",
+      "contents": "KAudioFormatAES3"
+    },
+    {
+      "trigger": "kAudioFormatALaw (1634492791)",
+      "contents": "KAudioFormatALaw"
+    },
+    {
+      "trigger": "kAudioFormatAMR (1935764850)",
+      "contents": "KAudioFormatAMR"
+    },
+    {
+      "trigger": "kAudioFormatAppleIMA4 (1768775988)",
+      "contents": "KAudioFormatAppleIMA4"
+    },
+    {
+      "trigger": "kAudioFormatAppleLossless (1634492771)",
+      "contents": "KAudioFormatAppleLossless"
+    },
+    {
+      "trigger": "kAudioFormatAudible (1096107074)",
+      "contents": "KAudioFormatAudible"
+    },
+    {
       "trigger": "kAudioFormatBadPropertySizeError (561211770)",
       "contents": "KAudioFormatBadPropertySizeError"
     },
     {
       "trigger": "kAudioFormatBadSpecifierSizeError (561213539)",
       "contents": "KAudioFormatBadSpecifierSizeError"
+    },
+    {
+      "trigger": "kAudioFormatDVIIntelIMA (1836253201)",
+      "contents": "KAudioFormatDVIIntelIMA"
+    },
+    {
+      "trigger": "kAudioFormatFlagIsAlignedHigh (16)",
+      "contents": "KAudioFormatFlagIsAlignedHigh"
+    },
+    {
+      "trigger": "kAudioFormatFlagIsBigEndian (2)",
+      "contents": "KAudioFormatFlagIsBigEndian"
+    },
+    {
+      "trigger": "kAudioFormatFlagIsFloat (1)",
+      "contents": "KAudioFormatFlagIsFloat"
+    },
+    {
+      "trigger": "kAudioFormatFlagIsNonInterleaved (32)",
+      "contents": "KAudioFormatFlagIsNonInterleaved"
+    },
+    {
+      "trigger": "kAudioFormatFlagIsNonMixable (64)",
+      "contents": "KAudioFormatFlagIsNonMixable"
+    },
+    {
+      "trigger": "kAudioFormatFlagIsPacked (8)",
+      "contents": "KAudioFormatFlagIsPacked"
+    },
+    {
+      "trigger": "kAudioFormatFlagIsSignedInteger (4)",
+      "contents": "KAudioFormatFlagIsSignedInteger"
+    },
+    {
+      "trigger": "kAudioFormatFlagsAreAllClear (-2147483648)",
+      "contents": "KAudioFormatFlagsAreAllClear"
+    },
+    {
+      "trigger": "kAudioFormatFlagsAudioUnitCanonical (3116)",
+      "contents": "KAudioFormatFlagsAudioUnitCanonical"
+    },
+    {
+      "trigger": "kAudioFormatFlagsCanonical (12)",
+      "contents": "KAudioFormatFlagsCanonical"
+    },
+    {
+      "trigger": "kAudioFormatFlagsNativeEndian (0)",
+      "contents": "KAudioFormatFlagsNativeEndian"
+    },
+    {
+      "trigger": "kAudioFormatFlagsNativeFloatPacked (9)",
+      "contents": "KAudioFormatFlagsNativeFloatPacked"
+    },
+    {
+      "trigger": "kAudioFormatLinearPCM (1819304813)",
+      "contents": "KAudioFormatLinearPCM"
+    },
+    {
+      "trigger": "kAudioFormatMACE3 (1296122675)",
+      "contents": "KAudioFormatMACE3"
+    },
+    {
+      "trigger": "kAudioFormatMACE6 (1296122678)",
+      "contents": "KAudioFormatMACE6"
+    },
+    {
+      "trigger": "kAudioFormatMIDIStream (1835623529)",
+      "contents": "KAudioFormatMIDIStream"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4AAC (1633772320)",
+      "contents": "KAudioFormatMPEG4AAC"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4AAC_ELD (1633772389)",
+      "contents": "KAudioFormatMPEG4AAC_ELD"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4AAC_ELD_SBR (1633772390)",
+      "contents": "KAudioFormatMPEG4AAC_ELD_SBR"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4AAC_ELD_V2 (1633772391)",
+      "contents": "KAudioFormatMPEG4AAC_ELD_V2"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4AAC_HE (1633772392)",
+      "contents": "KAudioFormatMPEG4AAC_HE"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4AAC_HE_V2 (1633772400)",
+      "contents": "KAudioFormatMPEG4AAC_HE_V2"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4AAC_LD (1633772396)",
+      "contents": "KAudioFormatMPEG4AAC_LD"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4AAC_Spatial (1633772403)",
+      "contents": "KAudioFormatMPEG4AAC_Spatial"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4CELP (1667591280)",
+      "contents": "KAudioFormatMPEG4CELP"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4HVXC (1752594531)",
+      "contents": "KAudioFormatMPEG4HVXC"
+    },
+    {
+      "trigger": "kAudioFormatMPEG4TwinVQ (1953986161)",
+      "contents": "KAudioFormatMPEG4TwinVQ"
+    },
+    {
+      "trigger": "kAudioFormatMPEGLayer1 (778924081)",
+      "contents": "KAudioFormatMPEGLayer1"
+    },
+    {
+      "trigger": "kAudioFormatMPEGLayer2 (778924082)",
+      "contents": "KAudioFormatMPEGLayer2"
+    },
+    {
+      "trigger": "kAudioFormatMPEGLayer3 (778924083)",
+      "contents": "KAudioFormatMPEGLayer3"
+    },
+    {
+      "trigger": "kAudioFormatMicrosoftGSM (1836253233)",
+      "contents": "KAudioFormatMicrosoftGSM"
+    },
+    {
+      "trigger": "kAudioFormatParameterValueStream (1634760307)",
+      "contents": "KAudioFormatParameterValueStream"
     },
     {
       "trigger": "kAudioFormatProperty_ASBDFromESDS (1702064996)",
@@ -37996,6 +39052,26 @@
       "contents": "KAudioFormatProperty_ValidateChannelLayout"
     },
     {
+      "trigger": "kAudioFormatQDesign (1363430723)",
+      "contents": "KAudioFormatQDesign"
+    },
+    {
+      "trigger": "kAudioFormatQDesign2 (1363430706)",
+      "contents": "KAudioFormatQDesign2"
+    },
+    {
+      "trigger": "kAudioFormatQUALCOMM (1365470320)",
+      "contents": "KAudioFormatQUALCOMM"
+    },
+    {
+      "trigger": "kAudioFormatTimeCode (1953066341)",
+      "contents": "KAudioFormatTimeCode"
+    },
+    {
+      "trigger": "kAudioFormatULaw (1970037111)",
+      "contents": "KAudioFormatULaw"
+    },
+    {
       "trigger": "kAudioFormatUnknownFormatError (560360820)",
       "contents": "KAudioFormatUnknownFormatError"
     },
@@ -38010,6 +39086,10 @@
     {
       "trigger": "kAudioFormatUnsupportedPropertyError (1886547824)",
       "contents": "KAudioFormatUnsupportedPropertyError"
+    },
+    {
+      "trigger": "kAudioFormatiLBC (1768710755)",
+      "contents": "KAudioFormatiLBC"
     },
     {
       "trigger": "kAudioQueueDeviceProperty_NumberChannels (1634821219)",
@@ -38584,6 +39664,34 @@
       "contents": "KAudioSession_RouteChangeKey_Reason"
     },
     {
+      "trigger": "kAudioStreamAnyRate (0)",
+      "contents": "KAudioStreamAnyRate"
+    },
+    {
+      "trigger": "kAudioTimeStampHostTimeValid (2)",
+      "contents": "KAudioTimeStampHostTimeValid"
+    },
+    {
+      "trigger": "kAudioTimeStampRateScalarValid (4)",
+      "contents": "KAudioTimeStampRateScalarValid"
+    },
+    {
+      "trigger": "kAudioTimeStampSMPTETimeValid (16)",
+      "contents": "KAudioTimeStampSMPTETimeValid"
+    },
+    {
+      "trigger": "kAudioTimeStampSampleHostTimeValid (3)",
+      "contents": "KAudioTimeStampSampleHostTimeValid"
+    },
+    {
+      "trigger": "kAudioTimeStampSampleTimeValid (1)",
+      "contents": "KAudioTimeStampSampleTimeValid"
+    },
+    {
+      "trigger": "kAudioTimeStampWordClockTimeValid (8)",
+      "contents": "KAudioTimeStampWordClockTimeValid"
+    },
+    {
       "trigger": "kAudioToolboxErr_CannotDoInCurrentContext (-10863)",
       "contents": "KAudioToolboxErr_CannotDoInCurrentContext"
     },
@@ -38622,6 +39730,26 @@
     {
       "trigger": "kAudioToolboxErr_TrackNotFound (-10858)",
       "contents": "KAudioToolboxErr_TrackNotFound"
+    },
+    {
+      "trigger": "kAudioUnitSampleFractionBits (24)",
+      "contents": "KAudioUnitSampleFractionBits"
+    },
+    {
+      "trigger": "kAudio_FileNotFoundError (-43)",
+      "contents": "KAudio_FileNotFoundError"
+    },
+    {
+      "trigger": "kAudio_MemFullError (-108)",
+      "contents": "KAudio_MemFullError"
+    },
+    {
+      "trigger": "kAudio_ParamError (-50)",
+      "contents": "KAudio_ParamError"
+    },
+    {
+      "trigger": "kAudio_UnimplementedError (-4)",
+      "contents": "KAudio_UnimplementedError"
     },
     {
       "trigger": "kBoxAnnotationSelector (1)",
@@ -49032,6 +50160,46 @@
       "contents": "KLineInitialSwashesOnSelector"
     },
     {
+      "trigger": "kLinearPCMFormatFlagIsAlignedHigh (16)",
+      "contents": "KLinearPCMFormatFlagIsAlignedHigh"
+    },
+    {
+      "trigger": "kLinearPCMFormatFlagIsBigEndian (2)",
+      "contents": "KLinearPCMFormatFlagIsBigEndian"
+    },
+    {
+      "trigger": "kLinearPCMFormatFlagIsFloat (1)",
+      "contents": "KLinearPCMFormatFlagIsFloat"
+    },
+    {
+      "trigger": "kLinearPCMFormatFlagIsNonInterleaved (32)",
+      "contents": "KLinearPCMFormatFlagIsNonInterleaved"
+    },
+    {
+      "trigger": "kLinearPCMFormatFlagIsNonMixable (64)",
+      "contents": "KLinearPCMFormatFlagIsNonMixable"
+    },
+    {
+      "trigger": "kLinearPCMFormatFlagIsPacked (8)",
+      "contents": "KLinearPCMFormatFlagIsPacked"
+    },
+    {
+      "trigger": "kLinearPCMFormatFlagIsSignedInteger (4)",
+      "contents": "KLinearPCMFormatFlagIsSignedInteger"
+    },
+    {
+      "trigger": "kLinearPCMFormatFlagsAreAllClear (-2147483648)",
+      "contents": "KLinearPCMFormatFlagsAreAllClear"
+    },
+    {
+      "trigger": "kLinearPCMFormatFlagsSampleFractionMask (8064)",
+      "contents": "KLinearPCMFormatFlagsSampleFractionMask"
+    },
+    {
+      "trigger": "kLinearPCMFormatFlagsSampleFractionShift (7)",
+      "contents": "KLinearPCMFormatFlagsSampleFractionShift"
+    },
+    {
       "trigger": "kLinguisticRearrangementOffSelector (1)",
       "contents": "KLinguisticRearrangementOffSelector"
     },
@@ -49626,6 +50794,42 @@
     {
       "trigger": "kMORXTag (1836020344)",
       "contents": "KMORXTag"
+    },
+    {
+      "trigger": "kMPEG4Object_AAC_LC (2)",
+      "contents": "KMPEG4Object_AAC_LC"
+    },
+    {
+      "trigger": "kMPEG4Object_AAC_LTP (4)",
+      "contents": "KMPEG4Object_AAC_LTP"
+    },
+    {
+      "trigger": "kMPEG4Object_AAC_Main (1)",
+      "contents": "KMPEG4Object_AAC_Main"
+    },
+    {
+      "trigger": "kMPEG4Object_AAC_SBR (5)",
+      "contents": "KMPEG4Object_AAC_SBR"
+    },
+    {
+      "trigger": "kMPEG4Object_AAC_SSR (3)",
+      "contents": "KMPEG4Object_AAC_SSR"
+    },
+    {
+      "trigger": "kMPEG4Object_AAC_Scalable (6)",
+      "contents": "KMPEG4Object_AAC_Scalable"
+    },
+    {
+      "trigger": "kMPEG4Object_CELP (8)",
+      "contents": "KMPEG4Object_CELP"
+    },
+    {
+      "trigger": "kMPEG4Object_HVXC (9)",
+      "contents": "KMPEG4Object_HVXC"
+    },
+    {
+      "trigger": "kMPEG4Object_TwinVQ (7)",
+      "contents": "KMPEG4Object_TwinVQ"
     },
     {
       "trigger": "kMathSymbolsSelector (6)",
@@ -50338,6 +51542,62 @@
     {
       "trigger": "kSFNTLookupTrimmedArray (8)",
       "contents": "KSFNTLookupTrimmedArray"
+    },
+    {
+      "trigger": "kSMPTETimeRunning (2)",
+      "contents": "KSMPTETimeRunning"
+    },
+    {
+      "trigger": "kSMPTETimeType2398 (11)",
+      "contents": "KSMPTETimeType2398"
+    },
+    {
+      "trigger": "kSMPTETimeType24 (0)",
+      "contents": "KSMPTETimeType24"
+    },
+    {
+      "trigger": "kSMPTETimeType25 (1)",
+      "contents": "KSMPTETimeType25"
+    },
+    {
+      "trigger": "kSMPTETimeType2997 (4)",
+      "contents": "KSMPTETimeType2997"
+    },
+    {
+      "trigger": "kSMPTETimeType2997Drop (5)",
+      "contents": "KSMPTETimeType2997Drop"
+    },
+    {
+      "trigger": "kSMPTETimeType30 (3)",
+      "contents": "KSMPTETimeType30"
+    },
+    {
+      "trigger": "kSMPTETimeType30Drop (2)",
+      "contents": "KSMPTETimeType30Drop"
+    },
+    {
+      "trigger": "kSMPTETimeType50 (10)",
+      "contents": "KSMPTETimeType50"
+    },
+    {
+      "trigger": "kSMPTETimeType5994 (7)",
+      "contents": "KSMPTETimeType5994"
+    },
+    {
+      "trigger": "kSMPTETimeType5994Drop (9)",
+      "contents": "KSMPTETimeType5994Drop"
+    },
+    {
+      "trigger": "kSMPTETimeType60 (6)",
+      "contents": "KSMPTETimeType60"
+    },
+    {
+      "trigger": "kSMPTETimeType60Drop (8)",
+      "contents": "KSMPTETimeType60Drop"
+    },
+    {
+      "trigger": "kSMPTETimeValid (1)",
+      "contents": "KSMPTETimeValid"
     },
     {
       "trigger": "kSSLAborted (4)",
