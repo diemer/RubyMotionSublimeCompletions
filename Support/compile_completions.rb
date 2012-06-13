@@ -5,6 +5,7 @@ require 'rexml/document'
 DebugEnabled = true
 
 # RubyMotion Bridgesupport default path
+RubyMotion60Path = "/Library/RubyMotion/data/6.0/BridgeSupport/"
 RubyMotionPath = "/Library/RubyMotion/data/5.1/BridgeSupport/"
 
 ###############################################################
@@ -298,4 +299,8 @@ end
 ###############################################################
 
 # Compile the completion tags
-puts RubyMotionCompletion.new(RubyMotionPath).compile
+if Dir.entries(RubyMotion60Path).count > 3
+  puts RubyMotionCompletion.new(RubyMotion60Path).compile
+else
+  puts RubyMotionCompletion.new(RubyMotionPath).compile
+end

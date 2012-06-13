@@ -12,6 +12,19 @@ Put this package into your Sublime Text 2 packages folder:
 **OS X**: ~/Library/Application Support/Sublime Text 2/Packages  
 **Linux**: ~/.Sublime Text 2/Packages
 
+iOS 6.0 Support
+---------------
+
+Because iOS 6.0 is currently under a NDA you will have to generate the completions manually. To do this you will first need to update RubyMotion to support iOS 6.0 using the following commands in your OS X Terminal:
+
+    cd /Library/RubyMotion/data/6.0; rake update
+
+Now you can run the following command to regenerate the completions:
+
+    ruby ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RubyMotion/Support/compile_completions.rb > ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/RubyMotion/RubyMotion.sublime-completions
+
+_Please note that I don't currently have access to the iOS 6 beta so if you run across any problems with the generations, please let me know_
+
 Usage
 -----
 
