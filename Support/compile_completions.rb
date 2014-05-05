@@ -5,8 +5,8 @@ require 'rexml/document'
 DebugEnabled = true
 
 # RubyMotion Bridgesupport default path
-RubyMotion60Path = "/Library/RubyMotion/data/6.0/BridgeSupport/"
-RubyMotionPath = "/Library/RubyMotion/data/5.1/BridgeSupport/"
+RubyMotion71Path = "/Library/RubyMotion/data/ios/7.1/BridgeSupport/"
+RubyMotionPath = "/Library/RubyMotion/data/ios/7.0/BridgeSupport/"
 
 ###############################################################
 
@@ -209,12 +209,12 @@ class RubyMotionCompletion
       end
       index += 1
     end
-    
+
     # Construct contents string
     contents = labels.first
     contents += "(%s)" % arguments.join(", ") unless arguments.empty?
-    
-    return contents 
+
+    return contents
   end
 
   # Returns a valid class definition
@@ -233,7 +233,7 @@ class RubyMotionCompletion
 
       completions << create_completion(trigger, contents)
     end
-    
+
     return completions
   end
 
@@ -299,8 +299,8 @@ end
 ###############################################################
 
 # Compile the completion tags
-if Dir.entries(RubyMotion60Path).count > 3
-  puts RubyMotionCompletion.new(RubyMotion60Path).compile
+if Dir.entries(RubyMotion71Path).count > 3
+  puts RubyMotionCompletion.new(RubyMotion71Path).compile
 else
   puts RubyMotionCompletion.new(RubyMotionPath).compile
 end
